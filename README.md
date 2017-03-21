@@ -1,13 +1,13 @@
 # 32.RestorePrint
 php 将print_r处理后的数据还原为原始数组的方法
 
-##介绍
+## 介绍
 php print_r方法可以把变量打印显示，使变量易于理解。如果变量是string,integer或float，将打印变量值本身，如果变量是array，将会按照一定格式显示键和元素。object与数组类似。print_r用于打印数组较多。
 
 php原生没有把print_r方法打印后的数据还原为原始数组，因此写了下面这个方法，实现将print_r处理后的数据还原为原始数组。
 <br>
 <br>
-##演示代码
+## 演示代码
 ```php
 <?php
 require 'RestorePrint.class.php';
@@ -46,7 +46,8 @@ var_dump($result);
 ```
 
 <br>
-##输出
+
+## 输出
 ```
 显示打印的数据
 Array
